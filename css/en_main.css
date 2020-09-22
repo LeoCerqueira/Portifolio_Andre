@@ -1,0 +1,12 @@
+* {
+	font-family: Arial, sans-serif;
+}
+
+body {
+	background: rgb(24, 24, 24);
+}
+
+p,
+a {
+	color: white;
+}
