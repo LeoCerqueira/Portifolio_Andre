@@ -1,10 +1,16 @@
+/*Styling contents of the main page*/
+
 * {
 	font-family: Arial, sans-serif;
 }
 
+/* Setting a black background*/
+
 body {
 	background: rgb(24, 24, 24);
 }
+
+/* white letters */
 
 p,
 a {
