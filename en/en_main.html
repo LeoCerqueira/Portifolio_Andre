@@ -3,7 +3,16 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="/css/en_main.css" />
+		<link rel="stylesheet" href="/animation/aos.css" />
+		<link rel="stylesheet" href="/en/en_css/en_main.css" />
+		<link rel="stylesheet" href="/en/en_css/en_main_responsive.css" />
+
+		<!--Importing the UBUNTU font, from google fonts-->
+
+		<link
+			href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap"
+			rel="stylesheet"
+		/>
 		<title>André Cerqueira</title>
 	</head>
 
@@ -11,30 +20,53 @@
         model will be used for other languages too.-->
 
 	<body>
-		<head>
-			<a href="">André Cerqueira</a>
-			<a href="">About</a>
-			<a href="">Contact</a>
-		</head>
+		<div id="top">
+			<a href="" id="andre">André Cerqueira</a>
+			<a href="" id="about">About</a>
+			<a href="" id="contact">Contact</a>
+		</div>
 		<main>
-			<p>Hello, I'm a UX Writer linving in</p>
-			<p><strike>Morro do Chapéu</strike></p>
-			<p><strike>Salvador</strike></p>
-			<p><strike>São Paulo</strike></p>
+			<p data-aos="fade-up" data-aos-delay="650" id="presentation">
+				Hello, I'm a UX Writer linving in
+			</p>
+			<p data-aos="fade-up" data-aos-delay="650" class="cityA">
+				<strike>Morro do Chapéu</strike>
+			</p>
+			<p data-aos="fade-up" data-aos-delay="650" class="cityB">
+				<strike>Salvador</strike>
+			</p>
+			<p data-aos="fade-up" data-aos-delay="650" class="cityB">
+				<strike>São Paulo</strike>
+			</p>
+			<p data-aos="fade-up" data-aos-delay="650" class="cityB">
+				Montreal
+			</p>
 
-			<a href="">Email me</a>
-			<p>OR SCROLL DOWN</p>
-			<div></div>
-
-			<!-- Projects os the main page -->
-
-			<p>PROJECTS</p>
-			<p>Projeto 01</p>
-			<p>Projeto 01</p>
-			<p>Projeto 01</p>
-			<p>Projeto 01</p>
-			<p>Projeto 01</p>
-			<p>Projeto 01</p>
+			<a data-aos="fade-right" data-aos-delay="650" href="" id="email"
+				>Email me</a
+			>
+			<p data-aos="fade-up" data-aos-delay="2850" id="or_scroll_down">
+				OR SCROLL DOWN
+			</p>
 		</main>
+		<div id="projects">
+			<!-- Projects of the main page -->
+
+			<p data-aos="fade-up" id="projects_head">PROJECTS</p>
+			<p data-aos="fade-up" class="project_link">Projeto 01</p>
+			<p data-aos="fade-up" class="project_link">Projeto 02</p>
+			<p data-aos="fade-up" class="project_link">Projeto 03</p>
+			<p data-aos="fade-up" class="project_link">Projeto 04</p>
+			<p data-aos="fade-up" class="project_link">Projeto 05</p>
+			<p data-aos="fade-up" class="project_link">Projeto 06</p>
+		</div>
+
+		<!-- Scripts for animations-->
+
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="/animation/aos.js"></script>
+		<script type="text/javascript">
+			AOS.init({ duration: 800, once: true });
+		</script>
 	</body>
 </html>

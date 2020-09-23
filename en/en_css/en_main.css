@@ -1,0 +1,147 @@
+/*Styling contents of the main page*/
+
+* {
+	font-family: Gordita, sans-serif;
+}
+
+/* Setting a black background*/
+
+body {
+	background-color: #191a1d;
+}
+
+/* white letters */
+
+p,
+a {
+	color: #fff;
+
+	/* styling the head of the page */
+}
+#top {
+	display: block;
+	position: sticky;
+	top: 25px;
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*header fonts*/
+
+#top a {
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+/*elements position*/
+
+#about,
+#contact {
+	float: right;
+	padding-right: 20px;
+}
+
+/* styling the main part*/
+
+main {
+	max-width: 1000px;
+	justify-items: center;
+	text-align: center;
+	margin: 15% auto 12% auto;
+	height: 940px;
+}
+
+#presentation {
+	position: relative;
+	display: block;
+	width: 70%;
+	margin: 0px auto 0%;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 44px;
+	line-height: 60px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+
+	cursor: pointer;
+}
+
+/* Styling the cities part*/
+
+main .cityA {
+	margin-top: 15px;
+	font-size: 25px;
+	line-height: 50px;
+}
+
+main .cityB {
+	margin-top: -15px;
+	font-size: 25px;
+}
+
+/*Styling the "email me" button */
+
+main #email {
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 9px 15px;
+	display: flex;
+	width: 150px;
+	margin: 60px auto 100px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrap;
+	flex-wrap: nowrap;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	background-color: #191a1d;
+	font-family: Gordita, sans-serif;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+main #or_scroll_down {
+	font-size: 13px;
+	color: hsla(0, 0%, 100%, 0.64);
+}
+
+/* Styling the PROJEC options area */
+
+body #projects {
+	max-width: 1000px;
+	justify-items: center;
+	text-align: center;
+	margin: 12% auto 12% auto;
+}
+
+body #projects_head {
+	position: relative;
+	width: 80%;
+	margin: 0px auto 1%;
+	font-family: Gordita, sans-serif;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+body #projects .project_link {
+	width: 100%;
+	margin: 4% auto 5%;
+	font-family: Gordita, sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 10px;
+}

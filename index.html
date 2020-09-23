@@ -4,14 +4,26 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>André Cerqueira</title>
+		<link rel="stylesheet" href="/animation/aos.css" />
 		<link rel="stylesheet" href="/css/index.css" />
 		<link rel="stylesheet" href="/css/responsive.css" />
 	</head>
 	<body>
 		<!-- Three buttons of the first page, one for each language. -->
 
-		<a href="" id="pt"><span>PORTUGUÊS</span></a>
-		<a href="" id="fr"><span>FRANÇAIS</span></a>
-		<a href="/en/en_main.html" id="en"><span>ENGLISH</span></a>
+		<a data-aos="fade" href="" id="pt"><span>PORTUGUÊS</span></a>
+		<a data-aos="fade" href="" id="fr"><span>FRANÇAIS</span></a>
+		<a data-aos="fade" href="/en/en_main.html" id="en"
+			><span>ENGLISH</span></a
+		>
+		>
+
+		<!-- Scripts for animations-->
+
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+		<script src="/animation/aos.js"></script>
+		<script type="text/javascript">
+			AOS.init({ duration: 800 });
+		</script>
 	</body>
 </html>
