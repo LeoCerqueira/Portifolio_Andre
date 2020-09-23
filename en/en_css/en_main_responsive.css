@@ -1,3 +1,5 @@
+/*This parte of the code is to make the page mobile friendly */
+
 @media (max-width: 1000px) {
 	body {
 		position: relative;
@@ -10,7 +12,7 @@
 	}
 
 	main {
-		margin: 12% auto 12% auto;
+		margin: 29% auto 12% auto;
 	}
 
 	#andre {
@@ -18,17 +20,19 @@
 	}
 
 	#presentation {
-		font-size: 22px;
+		width: 95%;
+		font-size: 30px;
+		line-height: 45px;
 	}
 
 	main .cityA,
 	main .cityB {
-		font-size: 16px;
-		margin-top: 5px;
+		font-size: 20px;
+		margin-top: 25px;
 		line-height: 10px;
 	}
 
 	main #email {
-		margin: 40px auto 40px;
+		margin: 60px auto 40px;
 	}
 }
