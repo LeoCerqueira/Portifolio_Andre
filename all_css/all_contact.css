@@ -8,6 +8,23 @@ main #about_me {
 	text-align: left;
 }
 
+#send_me {
+	width: 150px;
+	height: 40px;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	justify-content: center;
+	margin: 70px auto;
+	border-radius: 20px;
+}
+
+main a {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: black;
+	padding-top: 10px;
+}
+
 @media (max-width: 900px) {
 	main #about_me {
 		max-width: 85%;
